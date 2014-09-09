@@ -94,7 +94,6 @@ public class PezCandy implements Serializable, Comparable<PezCandy> {
    * @see java.lang.Comparable#compareTo(java.lang.Object)
    * 
    */
-  @Override
   public int compareTo(PezCandy aCandy) {
     return this.getFlavor().compareTo(aCandy.getFlavor());
   }

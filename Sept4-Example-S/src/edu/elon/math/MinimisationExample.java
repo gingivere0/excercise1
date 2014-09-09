@@ -85,7 +85,6 @@ class MinimFunct implements MinimisationFunction {
   private double a = 0.0D;
 
   // evaluation function
-  @Override
   public double function(double[] x) {
     double z = a + x[0] * x[0] + 3.0D * Math.pow(x[1], 4);
     return z;
